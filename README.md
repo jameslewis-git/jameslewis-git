@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- HEADER BOMB -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF0080,50:7928CA,100:00D4FF&height=300&section=header&text=JAMES%20LEWIS&fontSize=80&fontColor=ffffff&fontAlignY=40&desc=AI%20Engineer%20%E2%9A%A1%20Full-Stack%20Dev%20%F0%9F%9A%80%20Data%20Science%20%F0%9F%A4%96&descSize=20&descAlignY=62&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF0080,50:7928CA,100:00D4FF&height=300&section=header&text=JAMES%20LEWIS&fontSize=80&fontColor=ffffff&fontAlignY=40&desc=AI%20Engineer%20%E2%9A%A1%20Full-Stack%20Dev%20%F0%9F%9A%80%20Product%20Manager%20%F0%9F%A4%96&descSize=20&descAlignY=62&animation=fadeIn" width="100%"/>
 
 <!-- MATRIX TYPING LINES -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=700&lines=%F0%9F%94%A5+AI+%26+Data+Science+Engineer;%E2%9A%A1+Full-Stack+Web+Innovator;%F0%9F%A4%96+Cloud+Engineer;%F0%9F%A4%96+AI+Engineer;%F0%9F%8B%AB+AI+Engineer+%26+Trainer;%F0%9F%9A%80+Deploying+AI+to+Production;%F0%9F%8C%90+Open+to+Crazy+Collaborations)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=700&lines=%F0%9F%94%A5+AI+%26+Data+Science+Engineer;%E2%9A%A1+Full-Stack+Web+Innovator;%F0%9F%A4%96+Cloud+Engineer;%F0%9F%A4%96%F0%9F%8E%93+AI+Engineer+%26+Trainer;%F0%9F%9A%80+Deploying+AI+to+Production;%F0%9F%8C%90+Open+to+Crazy+Collaborations)](https://git.io/typing-svg)
 
 <!-- BADGE STORM -->
 ![](https://img.shields.io/badge/STATUS-BUILDING%20THE%20FUTURE-%2300D4FF?style=for-the-badge&logo=rocket&logoColor=white)
@@ -24,12 +24,12 @@
 ```python
 class JamesLewis:
     name         = "James Lewis"
-    role         = ["AI Engineer & Trainer", "Cloud Engineer", "Full-Stack Dev", "Data Scientist"]
+    role         = ["AI Engineer & Trainer", "Cloud Engineer", "Full-Stack Dev", "Product Manager"]
     college      = "Vidyavardhini's College of Engg & Tech"
     location     = "Mumbai, India 🇮🇳"
-    languages    = ["Python", "TypeScript", "JavaScript", "Java", "SQL"]
-    ai_stack     = ["TensorFlow", "PyTorch", "Gemini AI", "LangChain"]
-    web_stack    = ["Next.js", "React", "Node.js", "Supabase"]
+    languages    = ["Python", "TypeScript", "JavaScript", "Go", "SQL"]
+    ai_stack     = ["PyTorch", "Hugging Face", "Gemini AI", "LangChain"]
+    web_stack    = ["React", "Node.js", "Supabase", "FastAPI", "Tailwind CSS", "Docker"]
     superpower   = "Turning raw data into intelligent products 🧠"
     currently    = "Building AI-powered apps that actually ship 🚀"
     fun_fact     = "I debug at 2AM and call it productive 💀"
@@ -40,7 +40,7 @@ class JamesLewis:
 
 ---
 
-## ⚡ SKILL LEVEL: OVER 9000
+## ⚡ SKILL LEVEL: Powering...
 
 <div align="center">
 
