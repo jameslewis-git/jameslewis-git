@@ -1,112 +1,170 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6EE7F7,100:A855F7&height=220&section=header&text=James%20Lewis&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Engineer%20%7C%20Full-Stack%20Cloud%20Innovator&descAlignY=55&descSize=20" width="100%" />
+<!-- HEADER BOMB -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF0080,50:7928CA,100:00D4FF&height=300&section=header&text=JAMES%20LEWIS&fontSize=80&fontColor=ffffff&fontAlignY=40&desc=AI%20Engineer%20%E2%9A%A1%20Full-Stack%20Dev%20%F0%9F%9A%80%20Data%20Science%20%F0%9F%A4%96&descSize=20&descAlignY=62&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Software+%26+Cloud+Engineer+%F0%9F%9A%80;AI+%26+Data+Science+Trailblazer+%F0%9F%A4%96;Full-Stack+Web+Innovator+%F0%9F%8C%90;Co-Chairperson+at+VCET+NSDC+%F0%9F%8E%93;Open+to+Collaborations+%F0%9F%8D%9D)](https://git.io/typing-svg)
+<!-- MATRIX TYPING LINES -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=700&lines=%F0%9F%94%A5+AI+%26+Data+Science+Engineer;%E2%9A%A1+Full-Stack+Web+Innovator;%F0%9F%A4%96+Machine+Learning+Builder;%F0%9F%9A%80+Deploying+AI+to+Production;%F0%9F%8E%AF+Co-Chairperson+%40+VCET+NSDC;%F0%9F%8C%90+Open+to+Crazy+Collaborations)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=2000&color=6EE7F7&center=true&vCenter=true&width=600&lines=Building+the+Future+with+AI+%2B+Code+%E2%9A%A1;Turning+Data+into+Intelligence+%F0%9F%A7%A0;Deploying+AI+to+Production+%F0%9F%9A%80)](https://git.io/typing-svg)
+<!-- BADGE STORM -->
+![](https://img.shields.io/badge/STATUS-BUILDING%20THE%20FUTURE-%2300D4FF?style=for-the-badge&logo=rocket&logoColor=white)
+![](https://img.shields.io/badge/LOCATION-MUMBAI%20%F0%9F%87%AE%F0%9F%87%B3-%23FF0080?style=for-the-badge)
+![](https://img.shields.io/badge/OPEN%20TO-COLLABS%20%26%20JOBS-%237928CA?style=for-the-badge&logo=handshake&logoColor=white)
+
+<!-- ANIMATED DIVIDER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
 
 ---
 
-## 🎯 Professional Summary
+<!-- ABOUT SECTION -->
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> &nbsp; WHO AM I?
 
-**AI & Data Science Engineer** with a proven track record of building **production-ready intelligent systems** and **scalable full-stack applications**. Currently pursuing B.E. in AI & Data Science at **Vidyavardhini's College of Engineering & Technology**, while leading technical initiatives as **Co-Chairperson of the National Student Data Corps (NSDC)**.
+```python
+class JamesLewis:
+    name         = "James Lewis"
+    role         = ["AI Engineer", "Full-Stack Dev", "Data Scientist"]
+    college      = "Vidyavardhini's College of Engg & Tech"
+    position     = "Co-Chairperson @ NSDC"
+    location     = "Mumbai, India 🇮🇳"
+    languages    = ["Python", "TypeScript", "JavaScript", "Java", "SQL"]
+    ai_stack     = ["TensorFlow", "PyTorch", "Gemini AI", "LangChain"]
+    web_stack    = ["Next.js", "React", "Node.js", "Supabase"]
+    superpower   = "Turning raw data into intelligent products 🧠"
+    currently    = "Building AI-powered apps that actually ship 🚀"
+    fun_fact     = "I debug at 2AM and call it productive 💀"
 
-**What I Bring to the Table:**
-- ✅ **5+ Full-Stack AI Projects** deployed to production
-- ✅ **Leadership Experience** managing technical teams
-- ✅ **Modern Tech Stack** expertise (Next.js, TypeScript, AI/ML)
-- ✅ **Business Mindset** - Solving real-world problems
-- ✅ **Fast Learner** - Adapting to new engineering paradigms
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build something insane together 🔥")
+```
 
 ---
 
-## 💼 Leadership & Impact
-
-### 🏆 Co-Chairperson - National Student Data Corps (NSDC)
-**Vidyavardhini's College of Engineering & Technology** | *2025 - Present*
-
-- Leading strategic initiatives and technical teams
-- Mentoring students in data science and AI
-- Executing technical events and workshops
-
----
-
-## 🚀 Featured Projects
+## ⚡ SKILL LEVEL: OVER 9000
 
 <div align="center">
 
-| Project | Tech Stack | Live Demo |
-| :--- | :--- | :--- |
-| **SwiftCards** | Next.js, Gemini AI, Supabase | [Demo](https://swiftcardss.netlify.app/) |
-| **NutriAI** | React, MongoDB, Gemini AI | [Demo](https://nutriproject.netlify.app/) |
-| **EduInsight** | Next.js, Supabase, TypeScript | [Demo](https://eduinsight-project.netlify.app/) |
-| **Quantum Habits** | Next.js, Framer Motion, dnd-kit | [Demo](https://dailyhabitchecklist.netlify.app/) |
+<!-- ANIMATED SKILL BADGES -->
+**🧠 AI / ML / Data Science**
 
-</div>
-
----
-
-## 🛠️ Technical Skills
-
-### **AI/ML & Data Science**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini%20AI-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 
-### **Full-Stack Development**
+**🌐 Full-Stack Development**
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
----
+**🛠️ Tools & DevOps**
 
-## 📊 Performance Metrics
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=jameslewis-git&theme=tokyonight&no-frame=true&column=8)](https://github.com/ryo-ma/github-profile-trophy)
-
-![James's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jameslewis-git&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jameslewis-git&theme=tokyonight&hide_border=true)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
 
 ---
 
-## 💡 Engineering Mindset
+## 🚀 PROJECTS THAT ACTUALLY SHIP
+
+<div align="center">
+
+| 🔥 Project | 🧰 Tech Stack | ⚡ What It Does | 🌐 Live |
+|:---:|:---:|:---:|:---:|
+| **SwiftCards** | Next.js · Gemini AI · Supabase | AI-powered flashcard generator | [🚀 Demo](https://swiftcardss.netlify.app/) |
+| **NutriAI** | React · MongoDB · Gemini AI | Smart nutrition tracking with AI | [🚀 Demo](https://nutriproject.netlify.app/) |
+| **EduInsight** | Next.js · Supabase · TypeScript | Data-driven education platform | [🚀 Demo](https://eduinsight-project.netlify.app/) |
+| **Quantum Habits** | Next.js · Framer Motion · dnd-kit | Habit tracker with drag UI | [🚀 Demo](https://dailyhabitchecklist.netlify.app/) |
+
+</div>
+
+---
+
+## 🏆 LEADERSHIP & IMPACT
+
+<div align="center">
+
+![](https://img.shields.io/badge/%F0%9F%8F%86%20Co--Chairperson-NSDC%20%40%20VCET-FF0080?style=for-the-badge)
+![](https://img.shields.io/badge/%F0%9F%8E%93%20B.E.-AI%20%26%20Data%20Science-7928CA?style=for-the-badge)
+![](https://img.shields.io/badge/%F0%9F%91%A5%20Leading-Technical%20Teams-00D4FF?style=for-the-badge)
+
+</div>
+
+- 🏆 **Co-Chairperson** — National Student Data Corps (NSDC), VCET | *2025 – Present*
+- 🎓 Mentoring students in **Data Science & AI** across the college
+- ⚡ Organized **technical workshops** and data-driven hackathons
+- 🌍 Driving **strategic initiatives** connecting students to industry
+
+---
+
+## 📊 GITHUB POWER STATS
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jameslewis-git&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0D1117&title_color=FF0080&icon_color=00D4FF&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jameslewis-git&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0080&text_color=ffffff"/>
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jameslewis-git&theme=radical&hide_border=true&background=0D1117&stroke=FF0080&ring=7928CA&fire=FF0080&currStreakLabel=00D4FF)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=jameslewis-git&theme=radical&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🧠 ENGINEERING MINDSET
 
 ```yaml
-Technical Excellence:
-  - Hands-on AI/ML production experience
-  - Performance-focused full-stack development
-  - Clean, modular architecture
+# James Lewis — Runtime Config v2.0
 
-Leadership:
-  - Proven technical team management
-  - Mentorship and collaborative growth
-  - Strategic event planning
+core_values:
+  - Ship fast, iterate faster 🚀
+  - Data-driven decisions always 📊
+  - Clean code is a love language 💙
+  - AI is not the future — it's NOW ⚡
+
+current_focus:
+  - Production-grade AI apps
+  - Full-stack with real-time data
+  - Open source contributions
+  - Learning something new every day
+
+fun:
+  - Debugs at 2AM ☕
+  - Names variables better than most people name their kids
+  - Can explain ML to your grandma AND your CTO
 ```
 
 ---
 
-## 📫 Let's Connect!
+## 📫 FIND ME IN THE WILD
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/-jameslewis)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-000000?style=for-the-badge&logo=vercel)](https://jameslewisportfolio.netlify.app/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:jameslewis.build@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-James%20Lewis-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/-jameslewis)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jameslewisportfolio.netlify.app-FF0080?style=for-the-badge&logo=vercel&logoColor=white)](https://jameslewisportfolio.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-jameslewis.build%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jameslewis.build@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-jameslewis--git-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jameslewis-git)
 
-![Profile Views](https://komarev.com/ghpvc/?username=jameslewis-git&color=A855F7&style=for-the-badge)
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:6EE7F7&height=120&section=footer" width="100%" />
+![Profile Views](https://komarev.com/ghpvc/?username=jameslewis-git&color=FF0080&style=for-the-badge&label=PROFILE+VIEWS)
+
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:7928CA,100:FF0080&height=150&section=footer&text=Let%27s%20Build%20Something%20Insane%20%F0%9F%94%A5&fontSize=24&fontColor=ffffff&fontAlignY=65" width="100%"/>
 
 </div>
