@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF0080,50:7928CA,100:00D4FF&height=300&section=header&text=JAMES%20LEWIS&fontSize=80&fontColor=ffffff&fontAlignY=40&desc=AI%20Engineer%20%E2%9A%A1%20Full-Stack%20Dev%20%F0%9F%9A%80%20Data%20Science%20%F0%9F%A4%96&descSize=20&descAlignY=62&animation=fadeIn" width="100%"/>
 
 <!-- MATRIX TYPING LINES -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=700&lines=%F0%9F%94%A5+AI+%26+Data+Science+Engineer;%E2%9A%A1+Full-Stack+Web+Innovator;%F0%9F%A4%96+Machine+Learning+Builder;%F0%9F%9A%80+Deploying+AI+to+Production;%F0%9F%8E%AF+Co-Chairperson+%40+VCET+NSDC;%F0%9F%8C%90+Open+to+Crazy+Collaborations)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=700&lines=%F0%9F%94%A5+AI+%26+Data+Science+Engineer;%E2%9A%A1+Full-Stack+Web+Innovator;%F0%9F%A4%96+Cloud+Engineer;%F0%9F%A4%96+AI+Engineer;%F0%9F%8B%AB+AI+Engineer+%26+Trainer;%F0%9F%9A%80+Deploying+AI+to+Production;%F0%9F%8C%90+Open+to+Crazy+Collaborations)](https://git.io/typing-svg)
 
 <!-- BADGE STORM -->
 ![](https://img.shields.io/badge/STATUS-BUILDING%20THE%20FUTURE-%2300D4FF?style=for-the-badge&logo=rocket&logoColor=white)
@@ -24,9 +24,8 @@
 ```python
 class JamesLewis:
     name         = "James Lewis"
-    role         = ["AI Engineer", "Full-Stack Dev", "Data Scientist"]
+    role         = ["AI Engineer & Trainer", "Cloud Engineer", "Full-Stack Dev", "Data Scientist"]
     college      = "Vidyavardhini's College of Engg & Tech"
-    position     = "Co-Chairperson @ NSDC"
     location     = "Mumbai, India 🇮🇳"
     languages    = ["Python", "TypeScript", "JavaScript", "Java", "SQL"]
     ai_stack     = ["TensorFlow", "PyTorch", "Gemini AI", "LangChain"]
@@ -45,7 +44,6 @@ class JamesLewis:
 
 <div align="center">
 
-<!-- ANIMATED SKILL BADGES -->
 **🧠 AI / ML / Data Science**
 
 ![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -98,13 +96,12 @@ class JamesLewis:
 
 <div align="center">
 
-![](https://img.shields.io/badge/%F0%9F%8F%86%20Co--Chairperson-NSDC%20%40%20VCET-FF0080?style=for-the-badge)
 ![](https://img.shields.io/badge/%F0%9F%8E%93%20B.E.-AI%20%26%20Data%20Science-7928CA?style=for-the-badge)
 ![](https://img.shields.io/badge/%F0%9F%91%A5%20Leading-Technical%20Teams-00D4FF?style=for-the-badge)
+![](https://img.shields.io/badge/%F0%9F%8B%AB%20AI-Engineer%20%26%20Trainer-FF0080?style=for-the-badge)
 
 </div>
 
-- 🏆 **Co-Chairperson** — National Student Data Corps (NSDC), VCET | *2025 – Present*
 - 🎓 Mentoring students in **Data Science & AI** across the college
 - ⚡ Organized **technical workshops** and data-driven hackathons
 - 🌍 Driving **strategic initiatives** connecting students to industry
