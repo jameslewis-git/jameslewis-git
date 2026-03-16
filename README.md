@@ -132,7 +132,7 @@ core_values:
   - Ship fast, iterate faster 🚀
   - Data-driven decisions always 📊
   - Clean code is a love language 💙
-  - AI is not the future — it's NOW ⚡
+  - AI is not the future - it's NOW ⚡
 
 current_focus:
   - Production-grade AI apps
