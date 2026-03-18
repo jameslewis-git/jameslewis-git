@@ -117,8 +117,6 @@ class JamesLewis:
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jameslewis-git&theme=radical&hide_border=true&background=0D1117&stroke=FF0080&ring=7928CA&fire=FF0080&currStreakLabel=00D4FF)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=jameslewis-git&theme=radical&no-frame=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
 </div>
 
 ---
