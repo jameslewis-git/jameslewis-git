@@ -83,10 +83,15 @@ class JamesLewis:
 
 | 🔥 Project | 🧰 Tech Stack | ⚡ What It Does | 🌐 Live |
 |:---:|:---:|:---:|:---:|
-| **SwiftCards** | Next.js · Gemini AI · Supabase | AI-powered flashcard generator | [🚀 Demo](https://swiftcardss.netlify.app/) |
-| **NutriAI** | React · MongoDB · Gemini AI | Smart nutrition tracking with AI | [🚀 Demo](https://nutriproject.netlify.app/) |
-| **EduInsight** | Next.js · Supabase · TypeScript | Data-driven education platform | [🚀 Demo](https://eduinsight-project.netlify.app/) |
-| **Quantum Habits** | Next.js · Framer Motion · dnd-kit | Habit tracker with drag UI | [🚀 Demo](https://dailyhabitchecklist.netlify.app/) |
+| **Stage Anchor** | Next.js · PDF.js · Web Speech API | Voice-tracked teleprompter for live performances | [🚀 Demo](https://github.com/jameslewis-git/stageanchor) |
+| **MindSpace** | React · Ollama · Recharts | AI wellness companion for exam students | [🚀 Demo](https://mindspace-promptwars.netlify.app/) |
+| **Chronos** | Next.js · MongoDB · Groq AI | Unified startup workspace with AI automation | [🚀 Demo](https://chronosworkflow.vercel.app/) |
+| **SwiftCards** | Next.js · Gemini AI · Supabase | AI-powered flashcard generator from any file | [🚀 Demo](https://swiftcardss.netlify.app/) |
+| **DataCanvas** | Next.js · Recharts · Prisma | Auto-detects data types and renders dashboards | [🚀 Demo](https://datacanvas.netlify.app/) |
+| **VisionRise** | React · Node.js · PostgreSQL | AI interview platform with proctoring & ATS scorer | 🔒 Private |
+| **NutriAI** | React · MongoDB · Gemini AI | Smart nutrition tracking with AI insights | [🚀 Demo](https://nutriproject.netlify.app/) |
+| **EduInsight** | Next.js · Supabase · TypeScript | Aggregates free engineering courses from the web | [🚀 Demo](https://eduinsight-project.netlify.app/) |
+| **Quantum Habits** | Next.js · Framer Motion · dnd-kit | Habit tracker with drag-and-drop UI | [🚀 Demo](https://dailyhabitchecklist.netlify.app/) |
 
 </div>
 
