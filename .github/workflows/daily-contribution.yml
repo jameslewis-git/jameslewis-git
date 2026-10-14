@@ -15,7 +15,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Make random commits
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Make realistic commits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -23,16 +28,100 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
-          # Random number: 0, 1, 2, or 3
-          COMMITS=$((RANDOM % 4))
-          echo "Today's commits: $COMMITS"
+          TODAY=$(date -u +%Y-%m-%d)
 
+          # Realistic commit count: weighted toward 1-4, occasionally more
+          ROLL=$((RANDOM % 10))
+          if [ $ROLL -lt 2 ]; then
+            COMMITS=0
+          elif [ $ROLL -lt 5 ]; then
+            COMMITS=1
+          elif [ $ROLL -lt 8 ]; then
+            COMMITS=$((RANDOM % 3 + 2))   # 2-4
+          else
+            COMMITS=$((RANDOM % 3 + 4))   # 4-6
+          fi
+
+          echo "Today ($TODAY): $COMMITS commits"
+
+          if [ "$COMMITS" -eq 0 ]; then
+            echo "Taking the day off today."
+            exit 0
+          fi
+
+          # Realistic commit messages pool
+          MESSAGES=(
+            "fix: resolve edge case in input validation"
+            "refactor: clean up utility functions"
+            "docs: update README with usage examples"
+            "chore: update dependencies"
+            "feat: add error handling for API calls"
+            "fix: correct off-by-one error in loop"
+            "style: improve code formatting"
+            "test: add unit tests for core module"
+            "refactor: extract helper into separate module"
+            "docs: add inline comments for clarity"
+            "fix: handle null response gracefully"
+            "chore: remove unused imports"
+            "feat: improve logging output"
+            "fix: typo in variable name"
+            "refactor: simplify conditional logic"
+            "docs: update changelog"
+            "chore: sync config with latest standards"
+            "feat: add retry logic on failure"
+            "fix: prevent duplicate entries"
+            "refactor: move constants to config file"
+          )
+
+          # Update activity-log.json with today's data
+          python3 - <<'PYEOF'
+          import json, os, sys
+          from datetime import date
+
+          log_path = "activity-log.json"
+          today = str(date.today())
+          commits = int(os.environ.get("COMMITS", 1))
+
+          try:
+              with open(log_path) as f:
+                  data = json.load(f)
+          except:
+              data = {"streak": 0, "total_commits": 0, "log": []}
+
+          data["last_updated"] = today
+          data["total_commits"] = data.get("total_commits", 0) + commits
+
+          # Update streak
+          log = data.get("log", [])
+          if log and log[-1]["date"] == today:
+              log[-1]["commits"] = commits
+          else:
+              log.append({"date": today, "commits": commits})
+          data["log"] = log[-365:]  # keep last 365 days
+
+          # Calculate streak
+          streak = 0
+          for entry in reversed(log):
+              if entry["commits"] > 0:
+                  streak += 1
+              else:
+                  break
+          data["streak"] = streak
+
+          with open(log_path, "w") as f:
+              json.dump(data, f, indent=2)
+          print(f"Updated log: {commits} commits, streak={streak}")
+          PYEOF
+
+          git add activity-log.json
+
+          # Make commits with realistic messages and slight time variation
+          MSG_COUNT=${#MESSAGES[@]}
           for i in $(seq 1 $COMMITS); do
-            git commit --allow-empty -m "chore: daily contribution $(date -u +%Y-%m-%d) #$i"
+            IDX=$((RANDOM % MSG_COUNT))
+            MSG="${MESSAGES[$IDX]}"
+            git commit -m "$MSG"
+            sleep $((RANDOM % 3 + 1))  # 1-3s between commits
           done
 
-          if [ "$COMMITS" -gt 0 ]; then
-            git push
-          else
-            echo "Skipping today (0 commits)"
-          fi
+          git push
