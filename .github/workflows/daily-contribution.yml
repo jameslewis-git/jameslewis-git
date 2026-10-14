@@ -15,11 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
       - name: Make realistic commits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -73,45 +68,41 @@ jobs:
             "refactor: move constants to config file"
           )
 
-          # Update activity-log.json with today's data
-          python3 - <<'PYEOF'
-          import json, os, sys
-          from datetime import date
+          # Update activity-log.json using jq (no Python heredoc issues)
+          LOG_FILE="activity-log.json"
 
-          log_path = "activity-log.json"
-          today = str(date.today())
-          commits = int(os.environ.get("COMMITS", 1))
+          # Read existing data or create fresh
+          if [ -f "$LOG_FILE" ]; then
+            TOTAL=$(jq '.total_commits // 0' "$LOG_FILE")
+            LOG=$(jq '.log // []' "$LOG_FILE")
+          else
+            TOTAL=0
+            LOG='[]'
+          fi
 
-          try:
-              with open(log_path) as f:
-                  data = json.load(f)
-          except:
-              data = {"streak": 0, "total_commits": 0, "log": []}
+          NEW_TOTAL=$((TOTAL + COMMITS))
 
-          data["last_updated"] = today
-          data["total_commits"] = data.get("total_commits", 0) + commits
-
-          # Update streak
-          log = data.get("log", [])
-          if log and log[-1]["date"] == today:
-              log[-1]["commits"] = commits
-          else:
-              log.append({"date": today, "commits": commits})
-          data["log"] = log[-365:]  # keep last 365 days
+          # Append today's entry (or update if already exists)
+          LOG=$(echo "$LOG" | jq --arg date "$TODAY" --argjson commits "$COMMITS" '
+            if (map(select(.date == $date)) | length) > 0
+            then map(if .date == $date then .commits = $commits else . end)
+            else . + [{"date": $date, "commits": $commits}]
+            end | .[-365:]
+          ')
 
           # Calculate streak
-          streak = 0
-          for entry in reversed(log):
-              if entry["commits"] > 0:
-                  streak += 1
-              else:
-                  break
-          data["streak"] = streak
+          STREAK=$(echo "$LOG" | jq '[reverse[] | select(.commits > 0)] | length')
 
-          with open(log_path, "w") as f:
-              json.dump(data, f, indent=2)
-          print(f"Updated log: {commits} commits, streak={streak}")
-          PYEOF
+          # Write back
+          jq -n \
+            --arg date "$TODAY" \
+            --argjson total "$NEW_TOTAL" \
+            --argjson streak "$STREAK" \
+            --argjson log "$LOG" \
+            '{"last_updated": $date, "total_commits": $total, "streak": $streak, "log": $log}' \
+            > "$LOG_FILE"
+
+          echo "Log updated: total=$NEW_TOTAL streak=$STREAK"
 
           git add activity-log.json
 
@@ -121,7 +112,7 @@ jobs:
             IDX=$((RANDOM % MSG_COUNT))
             MSG="${MESSAGES[$IDX]}"
             git commit -m "$MSG"
-            sleep $((RANDOM % 3 + 1))  # 1-3s between commits
+            sleep $((RANDOM % 3 + 1))
           done
 
           git push
