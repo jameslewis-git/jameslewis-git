@@ -104,13 +104,18 @@ jobs:
 
           echo "Log updated: total=$NEW_TOTAL streak=$STREAK"
 
-          git add activity-log.json
-
           # Make commits with realistic messages and slight time variation
           MSG_COUNT=${#MESSAGES[@]}
-          for i in $(seq 1 $COMMITS); do
+          git add activity-log.json
+          git commit -m "${MESSAGES[$((RANDOM % MSG_COUNT))]}"
+
+          # Each remaining commit needs a real file change to avoid "nothing to commit"
+          for i in $(seq 2 $COMMITS); do
             IDX=$((RANDOM % MSG_COUNT))
             MSG="${MESSAGES[$IDX]}"
+            # Touch the log file with a small update so git has a real change
+            jq --arg ts "$(date -u +%H:%M:%S)" '.last_run_time = $ts' "$LOG_FILE" > "$LOG_FILE.tmp" && mv "$LOG_FILE.tmp" "$LOG_FILE"
+            git add activity-log.json
             git commit -m "$MSG"
             sleep $((RANDOM % 3 + 1))
           done
